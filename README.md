@@ -64,8 +64,9 @@ accountStatus = 'pending';   ঠিক আছে
 accountStatus = 'blocked';  error
 
 
-Intersection Type (&) কী?
-Intersection Type হলো TypeScript এর একটি ফিচার যা দুই বা ততোধিক টাইপকে একত্রিত করে। অর্থাৎ, নতুন টাইপে সব টাইপের প্রপার্টি একসাথে থাকবে।
+Intersection Type (&) কী? 
+
+Answer: Intersection Type হলো TypeScript এর একটি ফিচার যা দুই বা ততোধিক টাইপকে একত্রিত করে। অর্থাৎ, নতুন টাইপে সব টাইপের প্রপার্টি একসাথে থাকবে।
 
 উদাহরণ:
 
