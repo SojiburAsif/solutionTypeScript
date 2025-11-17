@@ -3,7 +3,8 @@ typescript_blog:
   sections:
     - heading: "১. TypeScript এ Interface এবং Type এর মধ্যে পার্থক্য"
       description: |
-        TypeScript এ আমরা interface এবং type দুটোই ব্যবহার করি নতুন টাইপ ডিফাইন করার জন্য। তবে এদের মধ্যে কিছু পার্থক্য আছে।
+        TypeScript এ আমরা interface এবং type দুটোই ব্যবহার করি নতুন টাইপ ডিফাইন করার জন্য। 
+        তবে এদের মধ্যে কিছু পার্থক্য আছে।
       interface:
         description: |
           - সাধারণত অবজেক্ট বা ক্লাসের স্ট্রাকচার ডিফাইন করতে ব্যবহার করা হয়।
@@ -37,7 +38,8 @@ typescript_blog:
     - heading: "২. Union এবং Intersection Types"
       union_type:
         description: |
-          Union Type হলো TypeScript এর একটি ফিচার যা বলে, একটি ভেরিয়েবল একাধিক টাইপের মধ্যে যেকোনো একটিতে থাকতে পারে। অর্থাৎ, সেই ভেরিয়েবল নির্দিষ্ট কিছু টাইপের মান গ্রহণ করতে পারে।
+          Union Type হলো TypeScript এর একটি ফিচার যা বলে, একটি ভেরিয়েবল একাধিক টাইপের মধ্যে যেকোনো একটিতে থাকতে পারে। 
+          অর্থাৎ, সেই ভেরিয়েবল নির্দিষ্ট কিছু টাইপের মান গ্রহণ করতে পারে।
         example: |
           type UserRole = 'admin' | 'user' | 'guest';
           type Status = 'active' | 'inactive' | 'pending';
@@ -59,7 +61,8 @@ typescript_blog:
           };
       intersection_type:
         description: |
-          Intersection Type হলো TypeScript এর একটি ফিচার যা দুই বা ততোধিক টাইপকে একত্রিত করে। অর্থাৎ, নতুন টাইপে সব টাইপের প্রপার্টি একসাথে থাকবে।
+          Intersection Type হলো TypeScript এর একটি ফিচার যা দুই বা ততোধিক টাইপকে একত্রিত করে। 
+          অর্থাৎ, নতুন টাইপে সব টাইপের প্রপার্টি একসাথে থাকবে।
         example: |
           type Employee = { 
             id: number; 
