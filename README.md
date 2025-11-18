@@ -1,6 +1,6 @@
 
 
-১. TypeScript এ Interface এবং Type এর মধ্যে পার্থক্য (What are some differences between interfaces and types in TypeScript?)
+No.1 TypeScript এ Interface এবং Type এর মধ্যে পার্থক্য (What are some differences between interfaces and types in TypeScript?)
 Answer:TypeScript এ আমরা interface এবং type দুটোই ব্যবহার করি নতুন টাইপ ডিফাইন করার জন্য। তবে এদের মধ্যে কিছু পার্থক্য আছে।
 
 Interface:
@@ -45,7 +45,7 @@ const emp2: EmployeeType = { name: "Rakib", age: 25, salary: 40000 };
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-
+No.2
 Union Type (|) কী?
 Answer: Union Type হলো TypeScript এর একটি ফিচার যা বলে, একটি ভেরিয়েবল একাধিক টাইপের মধ্যে যেকোনো একটিতে থাকতে পারে। অর্থাৎ, সেই ভেরিয়েবল নির্দিষ্ট কিছু টাইপের মান গ্রহণ করতে পারে।
 
