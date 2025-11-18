@@ -42,18 +42,15 @@ console.log(person2.getDeatils());
 
 
 const filterByRating = (books: { title: string, rating: number }[]) => {
-    const plusReating = books.filter((user) => user.rating >= 4);
+    const plusReating = books.filter((user) => user.rating >= 4 && user.rating <= 5);
     return plusReating
 }
-
 
 
 const filterActiveUsers = (user: { id: number, name: string, email: string, isActive: boolean }[]) => {
     const ActiveUsers = user.filter((users) => users.isActive === true)
     return ActiveUsers
 }
-
-
 
 
 interface Book {
